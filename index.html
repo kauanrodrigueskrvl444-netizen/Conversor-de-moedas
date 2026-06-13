@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div>
+            <h1>CONVERT</h1>
+
+            <div class="card">
+
+                <label>VALOR</label>
+                <input type="number" id="valor" placeholder="0,00">
+
+                <label>MOEDA</label>
+                <select id="moedas">
+                    <option value="USD-BRL">Dólar</option>
+                    <option value="EUR-BRL">Euro</option>
+                    <option value="GBP-BRL">Libra</option>
+                </select>
+
+                <button id="btn">
+                    Converter em reais
+                </button>
+
+                <div class="display-res"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
